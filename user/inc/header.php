@@ -5,17 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Kahel Cafe</title>
+
+    <style>
+          body {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+    </style>
+
+
 </head>
+
 <body>
     <header>
         <div class="container">
+            <div class="logo">
             <img class="brand-img" src="icons/kahel-cafe-logo.png" width="48px"/>
-    
+            </div>
+
+
+            <div class="navigation">
+
+
             <a class="link" href="">Home</a>
             <a class="link" href="order-now.php">Order Now</a>
             <a class="link" href="reservation.php">Reservation</a>
             <img class="notification-bell" src="icons/bell-solid.svg" width="15px"/>
             <img class="cart" src="icons/shopping-cart.png" width="15px"/>
             <a class="link" href="login.php">Login</a>
+
+            </div>
+            
+    
+            
         </div>
     </header>
