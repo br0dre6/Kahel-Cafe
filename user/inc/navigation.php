@@ -557,21 +557,53 @@ input[type="number"]::-webkit-inner-spin-button {
     const currentPage = window.location.pathname.split('/').pop(); 
 
     const guestNavItems = [
-        { name: 'Home', link: '../user/index.php' },
-        { name: 'Order now', link: '../user/order.php' },
-        { name: 'Reservation', link: '#reservation' },
-        { icon: '<i class="fa-solid fa-bell" id="notification"></i>' },
-        { icon: '<i class="fa-solid fa-cart-shopping" id="cart"></i>', link: '../user/cart.php' },
-        { name: 'Login', id: '#log_btn' },
+        { 
+            name: 'Home',
+            link: '../user/index.php' 
+        },
+        { 
+            name: 'Order now',
+            link: '../user/order.php' },
+        { 
+            name: 'Reservation',
+            link: '#reservation' 
+        },
+        { 
+            icon: '<i class="fa-solid fa-bell" id="notification"></i>' 
+        },
+        { 
+            icon: '<i class="fa-solid fa-cart-shopping" id="cart"></i>',
+             link: '../user/cart.php' 
+        },
+        { 
+            name: 'Login',
+            id: '#log_btn' },
     ];
 
     const userNavItems = [
-        { name: 'Home', link: '#home' },
-        { name: 'Order now', link: '#order' },
-        { name: 'Reservation', link: '#reservation' },
-        { icon: '<i class="fa-solid fa-bell"></i>' },
-        { icon: '<i class="bi bi-cart"></i>', link: '../user/cart.php' },
-        { name: 'Logout', id: '#logout' },
+        { 
+            name: 'Home', 
+            link: '#home' 
+        },
+        { 
+            name: 'Order now',
+            link: '#order' 
+        },
+        { 
+            name: 'Reservation',
+            link: '#reservation' 
+        },
+        { 
+            icon: '<i class="fa-solid fa-bell"></i>' 
+        },
+        { 
+            icon: '<i class="bi bi-cart"></i>',
+            link: '../user/cart.php' 
+        },
+        { 
+            name: 'Logout',
+            id: '#logout' 
+        },
     ];
 
     const isUserLoggedIn = false;
