@@ -1,0 +1,124 @@
+.body-cart{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container-cart{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.cart-left{
+    display: flex;
+    width: 70%;
+    
+    padding: 2rem;
+}
+
+
+
+
+
+.cart-right{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+  flex-direction: column;
+  padding: 2rem;
+    box-shadow: -10px 0px 29px 0px rgba(67,67,67,0.15);
+   
+}
+
+.cart-right-header1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #FF902B;
+
+    
+}
+.seat-reservation,
+.cart-right-header1{
+   width: 100%;
+  
+    flex-direction: column;
+   
+}
+
+.Available-Dates{
+
+}
+.reservation-color{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    
+}
+
+.no-slots{
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    background-color: #17A1FA;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.available{
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    background-color: #07D090;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.fully-booked{
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    background-color:#E60000 ;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.your-reservation{
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    background-color:#9647FF ;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.input-group {
+    width: 200px; /* Adjust width as needed */
+
+  }
+
+  .reservation-type-container{
+   display: flex;
+   flex-direction: column;
+   border: 1px solid black;
+  }
+
+  .party-size small{
+    font-size: 20rem;
+    border: 1px solid black;
+}
+
+
+  
